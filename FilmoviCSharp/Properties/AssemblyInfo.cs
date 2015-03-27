@@ -7,13 +7,13 @@ using System.Windows;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("FilmoviCSharp")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("Filmovi CSharp")]
+[assembly: AssemblyDescription("Filmovi Application for learning purposes")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("RASKi & AcrobatX")]
 [assembly: AssemblyProduct("FilmoviCSharp")]
-[assembly: AssemblyCopyright("Copyright ©  2015")]
-[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCopyright("Copyright © RASKi & AcrobatX 2015")]
+[assembly: AssemblyTrademark("Filmovi CSharp")]
 [assembly: AssemblyCulture("")]
 
 // Setting ComVisible to false makes the types in this assembly not visible 

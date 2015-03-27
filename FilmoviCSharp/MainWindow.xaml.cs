@@ -22,6 +22,19 @@ namespace FilmoviCSharp
         public MainWindow()
         {
             InitializeComponent();
+            this.Loaded += MainWindow_Loaded;
+        }
+
+        void MainWindow_Loaded(object sender, RoutedEventArgs e)
+        {
+            TimeSpan day_diff = new TimeSpan(DateTime.Now.Ticks - new DateTime(DateTime.Now.Year, DateTime.Now.Month, 1).Ticks);
+            List<int> days = new List<int>();
+            for (int i = 1; i <= day_diff.Days; i++)
+            {
+                days.Add(i);
+            }
+
+            myGrid = new DataGrid_AcrobatX(days);
         }
     }
 }
